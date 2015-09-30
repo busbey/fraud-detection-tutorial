@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "name": "${parcel.name}",
+  "version": "${project.version}",
+
+  "setActiveSymlink": true,
+
+  "provides": [
+    "flume-plugin"
+  ],
+
+  "scripts": {
+    "defines": "fraud_detection_tutorial.sh"
+  },
+
+  "components": [
+    {
+      "name": "${parcel.name}",
+      "version": "${project.version}",
+      "pkg_version": "${project.version}"
+    }
+  ],
+
+  "packages": [],
+  "groups": [],
+  "users": {}
+}  
